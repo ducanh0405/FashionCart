@@ -1,16 +1,24 @@
 ## Checklist lộ trình đến bản demo FashionCart
 
+**Chi tiết theo từng phase**:
+- [x] [Phase 0 – Chuẩn bị & định hướng](Phase%20checklists/phase0.md)
+- [ ] [Phase 1 – MVP e-commerce cơ bản (không ML)](Phase%20checklists/phase1.md)
+- [ ] [Phase 2 – Tích hợp Recommendation (DSS) cơ bản](Phase%20checklists/phase2.md)
+- [ ] [Phase 3 – Tích hợp Virtual Try-On (VTON) mức demo](Phase%20checklists/phase3.md)
+- [ ] [Phase 4 – Tối ưu demo & hoàn thiện trải nghiệm](Phase%20checklists/phase4.md)
+- [ ] [Phase 5 – Hậu kiểm sau demo](Phase%20checklists/phase5.md)
+
 ### Phase 0 – Chuẩn bị & định hướng
-- [ ] **Xác định scope demo**
-  - [ ] Chốt rõ tính năng sẽ có trong demo (web only, không mobile).
-  - [ ] Xác định user chính: người mua, shop, admin (nếu có trong demo).
-- [ ] **Chọn tech stack**
-  - [ ] Frontend (ví dụ: React + Vite/NextJS).
-  - [ ] Backend (ví dụ: Node.js/NestJS/Express hoặc Django/FastAPI).
-  - [ ] DB (ví dụ: PostgreSQL/MySQL).
-- [ ] **Chuẩn hóa kiến trúc**
-  - [ ] Review `docs/architecture.md` và chỉnh sửa cho phù hợp với thực tế.
-  - [ ] Tạo tài liệu API sơ bộ (có thể trong `docs/backend.md`).
+- [x] **Xác định scope demo**
+  - [x] Chốt rõ tính năng sẽ có trong demo (web only, không mobile).
+  - [x] Xác định user chính: người mua, shop, admin (nếu có trong demo).
+- [x] **Chọn tech stack**
+  - [x] Frontend (ví dụ: React + Vite/NextJS).
+  - [x] Backend (ví dụ: Node.js/NestJS/Express hoặc Django/FastAPI).
+  - [x] DB (ví dụ: PostgreSQL/MySQL).
+- [x] **Chuẩn hóa kiến trúc**
+  - [x] Review `docs/architecture.md` và chỉnh sửa cho phù hợp với thực tế.
+  - [x] Tạo tài liệu API sơ bộ (có thể trong `docs/backend.md`).
 
 ---
 
