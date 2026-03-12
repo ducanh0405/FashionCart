@@ -38,15 +38,6 @@
 
 #### 1. Product definition & user flow
 - [ ] Viết ngắn gọn use case chính của buyer trong Phase 1.
-- [ ] Vẽ flow chuẩn cho:
-  - [ ] Guest vào trang chủ.
-  - [ ] User đăng ký / đăng nhập.
-  - [ ] User xem danh sách sản phẩm.
-  - [ ] User xem product detail.
-  - [ ] User thêm sản phẩm vào cart.
-  - [ ] User chỉnh sửa cart.
-  - [ ] User checkout.
-  - [ ] User xem order history.
 - [ ] Xác định rõ dữ liệu nào là bắt buộc ở mỗi bước để tránh thiếu backend contract sau này.
 
 #### 2. UI/UX & design

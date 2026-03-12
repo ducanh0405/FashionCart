@@ -1,5 +1,5 @@
 # Dependencies
-frontendnode_modules/
+frontend/node_modules/
 
 # Build outputs
 dist/
