@@ -1,18 +1,49 @@
-## Phase 0 – Chuẩn bị & định hướng
+# Phase 0 – Chuẩn bị & định hướng ✅
+
+> **Trạng thái:** Hoàn thành
+> **Thời gian ước tính:** 1–2 ngày
+
+---
+
+### Mục tiêu phase
+- Chốt toàn bộ quyết định nền tảng trước khi bắt tay vào code.
+- Đảm bảo cả team cùng hiểu scope, tech stack, và kiến trúc hệ thống.
+- Tạo đủ tài liệu để mọi người có thể làm việc độc lập từ Phase 1.
+
+---
 
 ### Checklist
-- [x] **Xác định scope demo**
-  - [x] Chốt rõ tính năng sẽ có trong demo (web only, không mobile).
-  - [x] Xác định user chính: người mua, shop, admin (nếu có trong demo).
-- [x] **Chọn tech stack**
-  - [x] Frontend (ví dụ: React + Vite/NextJS).
-  - [x] Backend (ví dụ: Node.js/NestJS/Express hoặc Django/FastAPI).
-  - [x] DB (ví dụ: PostgreSQL/MySQL).
-- [x] **Chuẩn hóa kiến trúc**
-  - [x] Review `docs/architecture.md` và chỉnh sửa cho phù hợp với thực tế.
-  - [x] Tạo tài liệu API sơ bộ (có thể trong `docs/backend.md`).
+
+#### 1. Xác định scope demo
+- [x] Chốt rõ tính năng sẽ có trong demo (web only, không mobile).
+- [x] Xác định user chính: **Người mua (Buyer)**, Shop, Admin.
+- [x] Xác định tính năng AI: Virtual Try-On (VTON) + Decision Support System (DSS).
+
+#### 2. Chọn tech stack
+- [x] Frontend: **React + Vite**.
+- [x] Backend: **Django** (hoặc FastAPI — chốt cụ thể ở Phase 1).
+- [x] Database: **SQL Server** (required).
+- [x] ML Services: **Python** (PyTorch/TensorFlow, tách riêng service).
+
+#### 3. Chuẩn hóa kiến trúc
+- [x] Review và hoàn thiện `docs/architecture.md`.
+- [x] Tạo tài liệu API sơ bộ → xem `backend/BE/APIs.md`.
+- [x] Thiết lập cấu trúc thư mục chuẩn cho repo.
+
+---
 
 ### Tổng kết / Kết quả
-- Ghi lại quyết định về scope demo. ( web only user chính là người mua , Admin , shop )
-- Ghi lại tech stack cuối cùng đã chọn. ( react + vite for FE và django/fast api cho BE , database sử dụng SQL server )
-- Ghi lại link tài liệu kiến trúc/API đã hoàn thiện.(   )
+
+| Hạng mục | Quyết định |
+|---|---|
+| **Scope demo** | Web only. User chính: Buyer. Có thêm Admin & Shop ở mức backend |
+| **Frontend** | React + Vite |
+| **Backend** | Django (chốt cụ thể ở Phase 1) |
+| **Database** | SQL Server (required) |
+| **ML Services** | Python-based, tách riêng thành microservices |
+| **Kiến trúc** | Xem `docs/architecture.md` |
+| **Module docs** | `backend/BE/`, `frontend/FE/`, `ml-services/ML/` |
+
+---
+
+### Tiếp theo → [Phase 1: MVP e-commerce cơ bản](phase1.md)

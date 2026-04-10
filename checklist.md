@@ -1,105 +1,53 @@
-## Checklist lộ trình đến bản demo FashionCart
+# FashionCart — Lộ trình phát triển đến bản demo
 
-**Chi tiết theo từng phase**:
-- [x] [Phase 0 – Chuẩn bị & định hướng](Phase%20checklists/phase0.md)
-- [ ] [Phase 1 – MVP e-commerce cơ bản (không ML)](Phase%20checklists/phase1.md)
-- [ ] [Phase 2 – Tích hợp Recommendation (DSS) cơ bản](Phase%20checklists/phase2.md)
-- [ ] [Phase 3 – Tích hợp Virtual Try-On (VTON) mức demo](Phase%20checklists/phase3.md)
-- [ ] [Phase 4 – Tối ưu demo & hoàn thiện trải nghiệm](Phase%20checklists/phase4.md)
-- [ ] [Phase 5 – Hậu kiểm sau demo](Phase%20checklists/phase5.md)
-
-### Phase 0 – Chuẩn bị & định hướng
-- [x] **Xác định scope demo**
-  - [x] Chốt rõ tính năng sẽ có trong demo (web only, không mobile).
-  - [x] Xác định user chính: người mua, shop, admin (nếu có trong demo).
-- [x] **Chọn tech stack**
-  - [x] Frontend (ví dụ: React + Vite/NextJS).
-  - [x] Backend (ví dụ: Node.js/NestJS/Express hoặc Django/FastAPI).
-  - [x] DB (ví dụ: PostgreSQL/MySQL).
-- [x] **Chuẩn hóa kiến trúc**
-  - [x] Review `docs/architecture.md` và chỉnh sửa cho phù hợp với thực tế.
-  - [x] Tạo tài liệu API sơ bộ (có thể trong `docs/backend.md`).
+> Tài liệu tổng quan tracking tiến độ các phase. Click vào từng phase để xem checklist chi tiết.
 
 ---
 
-### Phase 1 – MVP e-commerce cơ bản (không ML)
-- [ ] **Thiết kế UI/UX**
-  - [ ] Vẽ user flow chính: browse → view product → add to cart → checkout.
-  - [ ] Thiết kế wireframe các trang chính: Home, Product Detail, Cart, Checkout, Login/Register, Profile.
-- [ ] **Backend MVP**
-  - [ ] Thiết kế schema DB cho: User, Product, Shop, Cart, Order.
-  - [ ] Implement API auth cơ bản: đăng ký, đăng nhập, refresh token.
-  - [ ] API sản phẩm: list/search, chi tiết sản phẩm.
-  - [ ] API giỏ hàng: thêm/xóa/sửa item, lấy giỏ hàng hiện tại.
-  - [ ] API đặt hàng: tạo order từ cart, xem lịch sử order.
-- [ ] **Frontend MVP**
-  - [ ] Thiết lập project frontend, cấu hình routing, state management.
-  - [ ] Trang Home: hiển thị list sản phẩm.
-  - [ ] Trang Product Detail: xem chi tiết + nút add to cart.
-  - [ ] Trang Cart: xem, update số lượng, xóa item.
-  - [ ] Trang Checkout: form thông tin nhận hàng + confirm order (giả lập thanh toán).
-  - [ ] Trang Auth: Login/Register.
-- [ ] **Chuẩn bị cho demo nội bộ**
-  - [ ] Seed data mẫu cho sản phẩm, shop, user test.
-  - [ ] Test end-to-end flow hoàn chỉnh 1 đơn hàng.
+## Tổng quan các Phase
+
+| Phase | Tên | Trạng thái | Thời gian ước tính |
+|---|---|---|---|
+| 0 | [Chuẩn bị & định hướng](Phase%20checklists/phase0.md) | ✅ Hoàn thành | 1–2 ngày |
+| 1 | [MVP e-commerce cơ bản](Phase%20checklists/phase1.md) | ⬜ Chưa bắt đầu | 4–6 tuần |
+| 2 | [Tích hợp Recommendation (DSS)](Phase%20checklists/phase2.md) | ⬜ Chưa bắt đầu | 2–3 tuần |
+| 3 | [Tích hợp Virtual Try-On (VTON)](Phase%20checklists/phase3.md) | ⬜ Chưa bắt đầu | 3–4 tuần |
+| 4 | [Tối ưu demo & hoàn thiện](Phase%20checklists/phase4.md) | ⬜ Chưa bắt đầu | 1–2 tuần |
+| 5 | [Hậu kiểm sau demo](Phase%20checklists/phase5.md) | ⬜ Chưa bắt đầu | 3–5 ngày |
+
+**Tổng thời gian ước tính:** ~12–16 tuần (3–4 tháng)
 
 ---
 
-### Phase 2 – Tích hợp Recommendation (DSS) cơ bản
-- [ ] **Xác định use case recommendation**
-  - [ ] Size khuyến nghị cho user dựa trên chiều cao/cân nặng/ số đo.
-  - [ ] Sản phẩm gợi ý dựa trên hành vi đơn giản (ví dụ: cùng category, cùng shop).
-- [ ] **ML/DSS chuẩn bị**
-  - [ ] Thu thập/gia lập dataset nhỏ cho size & style.
-  - [ ] Xây pipeline đơn giản (notebook) để ra được output recommendation mẫu.
-  - [ ] Chốt định dạng input/output API recommendation.
-- [ ] **Backend integration**
-  - [ ] Tạo endpoint backend gọi sang service DSS (hoặc mock trước).
-  - [ ] Xử lý fallback khi service ML không hoạt động.
-- [ ] **Frontend integration**
-  - [ ] Hiển thị size gợi ý trên trang Product Detail.
-  - [ ] Thêm section “Gợi ý cho bạn” ở Home/Product Detail.
-- [ ] **Kiểm thử cho demo**
-  - [ ] Chuẩn bị vài user test với thông tin cơ thể khác nhau.
-  - [ ] Kiểm tra recommendation hiển thị hợp lý, không lỗi.
+## Flow tổng quát
+
+```
+Phase 0 (Done)     Phase 1           Phase 2          Phase 3          Phase 4         Phase 5
+┌──────────┐   ┌──────────────┐   ┌────────────┐   ┌────────────┐   ┌───────────┐   ┌──────────┐
+│ Tech stack│──→│ MVP E-com    │──→│ DSS/Size   │──→│ VTON       │──→│ Polish &  │──→│ Review & │
+│ Arch docs │   │ Auth+Catalog │   │ Recommend  │   │ Try-On     │   │ Demo prep │   │ Feedback │
+│ Team setup│   │ Cart+Order   │   │ Fallback   │   │ Async jobs │   │ Docker    │   │ Roadmap  │
+└──────────┘   └──────────────┘   └────────────┘   └────────────┘   └───────────┘   └──────────┘
+```
 
 ---
 
-### Phase 3 – Tích hợp Virtual Try-On (VTON) mức demo
-- [ ] **Xác định flow VTON trong demo**
-  - [ ] Chọn 1–2 category sản phẩm (ví dụ: áo thun) để demo VTON.
-  - [ ] Quyết định cách user upload ảnh (upload sẵn hoặc chọn từ sample).
-- [ ] **Chuẩn bị VTON**
-  - [ ] Thiết lập notebook/ service VTON chạy được trên sample data.
-  - [ ] Chuẩn bị tập ảnh người mẫu + áo cần demo.
-  - [ ] Định nghĩa API: nhận ảnh + id sản phẩm → trả về ảnh try-on.
-- [ ] **Backend integration**
-  - [ ] Endpoint backend trung gian cho request VTON.
-  - [ ] Caching/ lưu kết quả VTON để tránh chạy lại nhiều lần trong demo.
-- [ ] **Frontend integration**
-  - [ ] Giao diện nút “Thử đồ” trên trang Product Detail.
-  - [ ] Modal/ trang hiển thị ảnh kết quả VTON.
-- [ ] **Chuẩn bị kịch bản demo VTON**
-  - [ ] Chuẩn bị trước 2–3 case thành công đẹp.
-  - [ ] Test UI/UX khi request lâu hoặc lỗi.
+## Cách sử dụng checklist
+
+1. **Trước khi bắt đầu phase mới** → đọc kỹ section "Những gì team cần chốt trước khi bắt đầu".
+2. **Trong quá trình làm** → tick `[x]` từng item khi hoàn thành.
+3. **Khi gần xong** → kiểm tra "Điều kiện hoàn thành Phase" ở cuối mỗi file.
+4. **Khi hoàn thành** → điền "Tổng kết / Kết quả" và chuyển sang phase kế tiếp.
 
 ---
 
-### Phase 4 – Tối ưu demo & hoàn thiện trải nghiệm
-- [ ] **Ổn định hệ thống cho demo**
-  - [ ] Docker hoá (hoặc script run đơn giản) cho frontend + backend + ML.
-  - [ ] Cấu hình environment cho demo (local hoặc server).
-  - [ ] Log cơ bản để debug khi demo.
-- [ ] **Trải nghiệm người dùng**
-  - [ ] Thêm loading state, error state, thông báo rõ ràng.
-  - [ ] Tối ưu UI: màu sắc, typography, responsive cơ bản.
-- [ ] **Chuẩn bị slide & kịch bản demo**
-  - [ ] Slide giới thiệu vấn đề, giải pháp, kiến trúc, demo flow, hướng phát triển.
-  - [ ] Viết script demo: ai nói gì, thao tác gì, thứ tự feature.
+## Tài liệu liên quan
 
----
-
-### Phase 5 – Hậu kiểm sau demo (optional nhưng nên có)
-- [ ] Thu thập feedback từ giảng viên / người xem demo.
-- [ ] Ghi lại pain point kỹ thuật & UX để cải thiện sau này.
-- [ ] Cập nhật `docs/roadmap.md` với bước tiếp theo (prod, scale, social feature, kết nối brand thật, v.v.).
+| Tài liệu | Đường dẫn |
+|---|---|
+| Kiến trúc hệ thống | `docs/architecture.md` |
+| Agent rules | `agentrules.md` |
+| Backend module docs | `backend/BE/*.md` |
+| Frontend module docs | `frontend/FE/*.md` |
+| ML module docs | `ml-services/ML/*.md` |
+| Database docs | `backend/database/readme.md` |

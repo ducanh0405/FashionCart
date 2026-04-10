@@ -1,4 +1,10 @@
-## Phase 1 – MVP e-commerce cơ bản (không ML)
+# Phase 1 – MVP e-commerce cơ bản (không ML)
+
+> **Trạng thái:** Chưa bắt đầu
+> **Yêu cầu trước:** Phase 0 hoàn thành
+> **Thời gian ước tính:** 4–6 tuần
+
+---
 
 ### Mục tiêu phase
 - Xây được một **MVP e-commerce web app** chạy ổn định cho luồng cốt lõi của FashionCart.
@@ -212,3 +218,7 @@
 - Thanh toán thật.
 - Social feed / social interaction.
 - Hệ thống admin đầy đủ.
+
+---
+
+### Tiếp theo → [Phase 2: Tích hợp Recommendation (DSS)](phase2.md)
