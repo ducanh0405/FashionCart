@@ -18,7 +18,54 @@
 - Có thể để `shop` và `admin` ở mức dữ liệu/backend chuẩn bị trước, chưa cần giao diện đầy đủ.
 - E-commerce core: auth, catalog, product detail, cart, checkout giả lập, order history.
 
+### Tài liệu module tương ứng trong repo (FE / BE)
 
+Tham chiếu khi triển khai Phase 1. Đường dẫn tính từ thư mục gốc repo; trong Markdown có thể dùng link tương đối từ file này: `../frontend/FE/...`, `../backend/BE/...`.
+
+#### Frontend — `frontend/FE/`
+
+| Chủ đề | File |
+|--------|------|
+| Đăng nhập / đăng ký | [`frontend/FE/login.md`](../frontend/FE/login.md) |
+| Thông tin người dùng / profile | [`frontend/FE/UserInformation.md`](../frontend/FE/UserInformation.md) |
+| Cài đặt tùy chọn (preferences) | [`frontend/FE/preference settings.md`](../frontend/FE/preference%20settings.md) |
+| Feed / danh sách sản phẩm | [`frontend/FE/Product Feeds.md`](../frontend/FE/Product%20Feeds.md) |
+| Trang chi tiết sản phẩm | [`frontend/FE/Product Detail pages.md`](../frontend/FE/Product%20Detail%20pages.md) |
+| Tìm kiếm & lọc | [`frontend/FE/Search & Filter.md`](../frontend/FE/Search%20%26%20Filter.md) |
+| Giỏ hàng (UI) | [`frontend/FE/Cart management UI.md`](../frontend/FE/Cart%20management%20UI.md) |
+| Checkout | [`frontend/FE/checkout screens.md`](../frontend/FE/checkout%20screens.md) |
+| Form địa chỉ giao hàng | [`frontend/FE/shipping address forms.md`](../frontend/FE/shipping%20address%20forms.md) |
+| VTON (giai đoạn sau; tham khảo) | [`frontend/FE/featureVTON.md`](../frontend/FE/featureVTON.md) |
+
+#### Backend — `backend/BE/`
+
+| Chủ đề | File |
+|--------|------|
+| Tổng quan API | [`backend/BE/APIs.md`](../backend/BE/APIs.md) |
+| Lưu trữ tài khoản | [`backend/BE/account data storage.md`](../backend/BE/account%20data%20storage.md) |
+| Phân quyền theo vai trò | [`backend/BE/role-based access control.md`](../backend/BE/role-based%20access%20control.md) |
+| CRUD sản phẩm | [`backend/BE/Manages product CRUD operations.md`](../backend/BE/Manages%20product%20CRUD%20operations.md) |
+| Phân loại danh mục | [`backend/BE/category classification.md`](../backend/BE/category%20classification.md) |
+| Tìm kiếm tối ưu | [`backend/BE/optimized search queries.md`](../backend/BE/optimized%20search%20queries.md) |
+| Trạng thái / lưu giỏ hàng | [`backend/BE/Cart state storage.md`](../backend/BE/Cart%20state%20storage.md) |
+| Phí / tính toán chi phí | [`backend/BE/fee calculations.md`](../backend/BE/fee%20calculations.md) |
+| Thanh toán (kể cả mock) | [`backend/BE/payment processing.md`](../backend/BE/payment%20processing.md) |
+| Lịch sử đơn hàng | [`backend/BE/order history tracking.md`](../backend/BE/order%20history%20tracking.md) |
+| Gợi ý (DSS — chủ yếu Phase 2; tham khảo) | [`backend/BE/recommendations.md`](../backend/BE/recommendations.md) |
+
+#### Ánh xạ nhanh checklist Phase 1 → tài liệu
+
+| Mục trong Phase 1 | FE | BE |
+|-------------------|----|-----|
+| Auth | `login.md` | `account data storage.md`, `role-based access control.md`, `APIs.md` |
+| Catalog / feed | `Product Feeds.md`, `Search & Filter.md` | `Manages product CRUD operations.md`, `category classification.md`, `optimized search queries.md` |
+| Product detail | `Product Detail pages.md` | `Manages product CRUD operations.md`, `APIs.md` |
+| Cart | `Cart management UI.md` | `Cart state storage.md`, `APIs.md` |
+| Checkout & địa chỉ | `checkout screens.md`, `shipping address forms.md` | `payment processing.md`, `fee calculations.md`, `APIs.md` |
+| Profile / thông tin user | `UserInformation.md`, `preference settings.md` | `account data storage.md` |
+| Order history | (UI có thể mô tả trong checkout hoặc bổ sung sau) | `order history tracking.md`, `APIs.md` |
+
+---
 
 ### Những gì team cần chốt trước khi bắt đầu
 - [ ] **Chốt scope demo của Phase 1**
