@@ -1,0 +1,424 @@
+[
+  {
+    "id": 1,
+    "shop_id": 1,
+    "category_id": 4,
+    "name": "Áo Thun Basic Cotton Oversize",
+    "slug": "ao-thun-basic-cotton-oversize",
+    "description": "Áo thun basic 100% cotton combed, form oversize thoải mái. Chất vải dày dặn, không bai, không co rút sau nhiều lần giặt. Thiết kế tối giản, dễ phối đồ với mọi outfit hàng ngày.",
+    "base_price": 199000,
+    "discount_price": 159000,
+    "thumbnail_url": "https://placehold.co/600x800/f0f0f0/333333?text=Ao+Thun+Basic",
+    "status": "active",
+    "total_sold": 234,
+    "average_rating": 4.6,
+    "review_count": 87,
+    "images": [
+      { "image_url": "https://placehold.co/600x800/f0f0f0/333333?text=Ao+Thun+Basic+1", "display_order": 0, "alt_text": "Áo thun basic cotton oversize màu trắng" },
+      { "image_url": "https://placehold.co/600x800/1a1a2e/ffffff?text=Ao+Thun+Basic+2", "display_order": 1, "alt_text": "Áo thun basic cotton oversize màu đen" },
+      { "image_url": "https://placehold.co/600x800/6c757d/ffffff?text=Ao+Thun+Basic+3", "display_order": 2, "alt_text": "Áo thun basic cotton oversize màu xám" }
+    ],
+    "variants": [
+      { "size": "S",  "color": "Trắng",    "color_code": "#FFFFFF", "stock": 45, "price_adjustment": 0,     "sku": "FC-001-S-WHITE" },
+      { "size": "M",  "color": "Trắng",    "color_code": "#FFFFFF", "stock": 60, "price_adjustment": 0,     "sku": "FC-001-M-WHITE" },
+      { "size": "L",  "color": "Trắng",    "color_code": "#FFFFFF", "stock": 40, "price_adjustment": 0,     "sku": "FC-001-L-WHITE" },
+      { "size": "XL", "color": "Trắng",    "color_code": "#FFFFFF", "stock": 25, "price_adjustment": 10000, "sku": "FC-001-XL-WHITE" },
+      { "size": "S",  "color": "Đen",      "color_code": "#1A1A1A", "stock": 50, "price_adjustment": 0,     "sku": "FC-001-S-BLACK" },
+      { "size": "M",  "color": "Đen",      "color_code": "#1A1A1A", "stock": 55, "price_adjustment": 0,     "sku": "FC-001-M-BLACK" },
+      { "size": "L",  "color": "Đen",      "color_code": "#1A1A1A", "stock": 35, "price_adjustment": 0,     "sku": "FC-001-L-BLACK" },
+      { "size": "M",  "color": "Xám",      "color_code": "#9E9E9E", "stock": 40, "price_adjustment": 0,     "sku": "FC-001-M-GREY" },
+      { "size": "L",  "color": "Xám",      "color_code": "#9E9E9E", "stock": 30, "price_adjustment": 0,     "sku": "FC-001-L-GREY" },
+      { "size": "M",  "color": "Navy",     "color_code": "#1B2A4A", "stock": 30, "price_adjustment": 0,     "sku": "FC-001-M-NAVY" }
+    ]
+  },
+  {
+    "id": 2,
+    "shop_id": 1,
+    "category_id": 4,
+    "name": "Áo Thun Graphic Print Streetwear",
+    "slug": "ao-thun-graphic-print-streetwear",
+    "description": "Áo thun in họa tiết graphic độc đáo theo phong cách streetwear Nhật Bản. Chất liệu cotton pha spandex co giãn nhẹ, form regular fit. In lụa chất lượng cao, không bong tróc.",
+    "base_price": 279000,
+    "discount_price": null,
+    "thumbnail_url": "https://placehold.co/600x800/2d3436/ffffff?text=Graphic+Tee",
+    "status": "active",
+    "total_sold": 156,
+    "average_rating": 4.4,
+    "review_count": 52,
+    "images": [
+      { "image_url": "https://placehold.co/600x800/2d3436/ffffff?text=Graphic+Tee+1", "display_order": 0, "alt_text": "Áo thun graphic streetwear mặt trước" },
+      { "image_url": "https://placehold.co/600x800/2d3436/ffffff?text=Graphic+Tee+2", "display_order": 1, "alt_text": "Áo thun graphic streetwear mặt sau" }
+    ],
+    "variants": [
+      { "size": "S",  "color": "Đen",     "color_code": "#1A1A1A", "stock": 20, "price_adjustment": 0, "sku": "FC-002-S-BLACK" },
+      { "size": "M",  "color": "Đen",     "color_code": "#1A1A1A", "stock": 35, "price_adjustment": 0, "sku": "FC-002-M-BLACK" },
+      { "size": "L",  "color": "Đen",     "color_code": "#1A1A1A", "stock": 25, "price_adjustment": 0, "sku": "FC-002-L-BLACK" },
+      { "size": "XL", "color": "Đen",     "color_code": "#1A1A1A", "stock": 15, "price_adjustment": 0, "sku": "FC-002-XL-BLACK" },
+      { "size": "M",  "color": "Trắng",   "color_code": "#FFFFFF", "stock": 25, "price_adjustment": 0, "sku": "FC-002-M-WHITE" },
+      { "size": "L",  "color": "Trắng",   "color_code": "#FFFFFF", "stock": 20, "price_adjustment": 0, "sku": "FC-002-L-WHITE" }
+    ]
+  },
+  {
+    "id": 3,
+    "shop_id": 1,
+    "category_id": 5,
+    "name": "Áo Sơ Mi Oxford Button-Down",
+    "slug": "ao-so-mi-oxford-button-down",
+    "description": "Áo sơ mi vải Oxford cao cấp, form slim fit lịch sự. Phù hợp đi làm, đi học, hay các dịp bán trang trọng. Vải cotton Oxford dày dặn, ít nhăn, thấm hút tốt, màu sắc bền đẹp.",
+    "base_price": 399000,
+    "discount_price": 349000,
+    "thumbnail_url": "https://placehold.co/600x800/e8f4f8/333333?text=Oxford+Shirt",
+    "status": "active",
+    "total_sold": 321,
+    "average_rating": 4.8,
+    "review_count": 134,
+    "images": [
+      { "image_url": "https://placehold.co/600x800/e8f4f8/333333?text=Oxford+Shirt+1", "display_order": 0, "alt_text": "Áo sơ mi Oxford trắng mặt trước" },
+      { "image_url": "https://placehold.co/600x800/1B2A4A/ffffff?text=Oxford+Shirt+2", "display_order": 1, "alt_text": "Áo sơ mi Oxford navy" }
+    ],
+    "variants": [
+      { "size": "S",  "color": "Trắng",    "color_code": "#FFFFFF", "stock": 30, "price_adjustment": 0,     "sku": "FC-003-S-WHITE" },
+      { "size": "M",  "color": "Trắng",    "color_code": "#FFFFFF", "stock": 40, "price_adjustment": 0,     "sku": "FC-003-M-WHITE" },
+      { "size": "L",  "color": "Trắng",    "color_code": "#FFFFFF", "stock": 35, "price_adjustment": 0,     "sku": "FC-003-L-WHITE" },
+      { "size": "XL", "color": "Trắng",    "color_code": "#FFFFFF", "stock": 20, "price_adjustment": 0,     "sku": "FC-003-XL-WHITE" },
+      { "size": "S",  "color": "Navy",     "color_code": "#1B2A4A", "stock": 25, "price_adjustment": 0,     "sku": "FC-003-S-NAVY" },
+      { "size": "M",  "color": "Navy",     "color_code": "#1B2A4A", "stock": 35, "price_adjustment": 0,     "sku": "FC-003-M-NAVY" },
+      { "size": "L",  "color": "Navy",     "color_code": "#1B2A4A", "stock": 30, "price_adjustment": 0,     "sku": "FC-003-L-NAVY" },
+      { "size": "M",  "color": "Xanh nhạt","color_code": "#B3D4E0", "stock": 20, "price_adjustment": 0,     "sku": "FC-003-M-LBLUE" },
+      { "size": "L",  "color": "Xanh nhạt","color_code": "#B3D4E0", "stock": 15, "price_adjustment": 0,     "sku": "FC-003-L-LBLUE" }
+    ]
+  },
+  {
+    "id": 4,
+    "shop_id": 1,
+    "category_id": 6,
+    "name": "Quần Jeans Slim Fit Co Giãn",
+    "slug": "quan-jeans-slim-fit-co-gian",
+    "description": "Quần jeans slim fit chất liệu denim co giãn 4 chiều, thoải mái trong mọi hoạt động. Màu wash nhạt tạo cảm giác trẻ trung, năng động. Phom chuẩn ôm nhẹ, không bó chặt.",
+    "base_price": 459000,
+    "discount_price": null,
+    "thumbnail_url": "https://placehold.co/600x800/6c9bc0/ffffff?text=Slim+Jeans",
+    "status": "active",
+    "total_sold": 178,
+    "average_rating": 4.5,
+    "review_count": 63,
+    "images": [
+      { "image_url": "https://placehold.co/600x800/6c9bc0/ffffff?text=Slim+Jeans+1", "display_order": 0, "alt_text": "Quần jeans slim fit xanh nhạt" },
+      { "image_url": "https://placehold.co/600x800/1B2A4A/ffffff?text=Slim+Jeans+2", "display_order": 1, "alt_text": "Quần jeans slim fit xanh đậm" },
+      { "image_url": "https://placehold.co/600x800/2d2d2d/ffffff?text=Slim+Jeans+3", "display_order": 2, "alt_text": "Quần jeans slim fit đen" }
+    ],
+    "variants": [
+      { "size": "28", "color": "Xanh nhạt",  "color_code": "#6C9BC0", "stock": 20, "price_adjustment": 0, "sku": "FC-004-28-LBLUE" },
+      { "size": "29", "color": "Xanh nhạt",  "color_code": "#6C9BC0", "stock": 25, "price_adjustment": 0, "sku": "FC-004-29-LBLUE" },
+      { "size": "30", "color": "Xanh nhạt",  "color_code": "#6C9BC0", "stock": 30, "price_adjustment": 0, "sku": "FC-004-30-LBLUE" },
+      { "size": "31", "color": "Xanh nhạt",  "color_code": "#6C9BC0", "stock": 20, "price_adjustment": 0, "sku": "FC-004-31-LBLUE" },
+      { "size": "32", "color": "Xanh nhạt",  "color_code": "#6C9BC0", "stock": 15, "price_adjustment": 0, "sku": "FC-004-32-LBLUE" },
+      { "size": "29", "color": "Xanh đậm",   "color_code": "#1B2A4A", "stock": 20, "price_adjustment": 0, "sku": "FC-004-29-DBLUE" },
+      { "size": "30", "color": "Xanh đậm",   "color_code": "#1B2A4A", "stock": 25, "price_adjustment": 0, "sku": "FC-004-30-DBLUE" },
+      { "size": "31", "color": "Xanh đậm",   "color_code": "#1B2A4A", "stock": 20, "price_adjustment": 0, "sku": "FC-004-31-DBLUE" },
+      { "size": "30", "color": "Đen",         "color_code": "#1A1A1A", "stock": 20, "price_adjustment": 0, "sku": "FC-004-30-BLACK" },
+      { "size": "31", "color": "Đen",         "color_code": "#1A1A1A", "stock": 15, "price_adjustment": 0, "sku": "FC-004-31-BLACK" }
+    ]
+  },
+  {
+    "id": 5,
+    "shop_id": 1,
+    "category_id": 7,
+    "name": "Quần Shorts Kaki Nam",
+    "slug": "quan-shorts-kaki-nam",
+    "description": "Quần shorts kaki chất liệu cotton kaki mềm mại, thoáng mát. Thiết kế 2 túi bên, 2 túi sau nắp cúc. Phù hợp mặc hàng ngày, đi biển, picnic. Form regular fit thoải mái.",
+    "base_price": 299000,
+    "discount_price": 249000,
+    "thumbnail_url": "https://placehold.co/600x800/d4b896/333333?text=Kaki+Shorts",
+    "status": "active",
+    "total_sold": 89,
+    "average_rating": 4.3,
+    "review_count": 31,
+    "images": [
+      { "image_url": "https://placehold.co/600x800/d4b896/333333?text=Kaki+Shorts+1", "display_order": 0, "alt_text": "Quần shorts kaki màu be" },
+      { "image_url": "https://placehold.co/600x800/4a7c59/ffffff?text=Kaki+Shorts+2", "display_order": 1, "alt_text": "Quần shorts kaki màu xanh rêu" }
+    ],
+    "variants": [
+      { "size": "28", "color": "Be",       "color_code": "#D4B896", "stock": 20, "price_adjustment": 0, "sku": "FC-005-28-BEIGE" },
+      { "size": "29", "color": "Be",       "color_code": "#D4B896", "stock": 25, "price_adjustment": 0, "sku": "FC-005-29-BEIGE" },
+      { "size": "30", "color": "Be",       "color_code": "#D4B896", "stock": 30, "price_adjustment": 0, "sku": "FC-005-30-BEIGE" },
+      { "size": "31", "color": "Be",       "color_code": "#D4B896", "stock": 20, "price_adjustment": 0, "sku": "FC-005-31-BEIGE" },
+      { "size": "29", "color": "Xanh rêu", "color_code": "#4A7C59", "stock": 15, "price_adjustment": 0, "sku": "FC-005-29-OLIVE" },
+      { "size": "30", "color": "Xanh rêu", "color_code": "#4A7C59", "stock": 20, "price_adjustment": 0, "sku": "FC-005-30-OLIVE" },
+      { "size": "31", "color": "Xanh rêu", "color_code": "#4A7C59", "stock": 15, "price_adjustment": 0, "sku": "FC-005-31-OLIVE" }
+    ]
+  },
+  {
+    "id": 6,
+    "shop_id": 1,
+    "category_id": 8,
+    "name": "Áo Croptop Ribbed Cơ Bản",
+    "slug": "ao-croptop-ribbed-co-ban",
+    "description": "Áo croptop chất liệu ribbed cotton co giãn ôm dáng. Thiết kế cổ tròn, tay ngắn, cạp cao. Phù hợp phối với quần jeans, chân váy, hay quần shorts. Form ôm vừa, tôn dáng.",
+    "base_price": 229000,
+    "discount_price": null,
+    "thumbnail_url": "https://placehold.co/600x800/f8d7da/333333?text=Croptop+Ribbed",
+    "status": "active",
+    "total_sold": 267,
+    "average_rating": 4.7,
+    "review_count": 112,
+    "images": [
+      { "image_url": "https://placehold.co/600x800/f8d7da/333333?text=Croptop+1", "display_order": 0, "alt_text": "Áo croptop ribbed màu hồng" },
+      { "image_url": "https://placehold.co/600x800/1A1A1A/ffffff?text=Croptop+2", "display_order": 1, "alt_text": "Áo croptop ribbed màu đen" },
+      { "image_url": "https://placehold.co/600x800/FFFFFF/333333?text=Croptop+3", "display_order": 2, "alt_text": "Áo croptop ribbed màu trắng" }
+    ],
+    "variants": [
+      { "size": "XS", "color": "Hồng",  "color_code": "#F8D7DA", "stock": 30, "price_adjustment": 0,      "sku": "FC-006-XS-PINK" },
+      { "size": "S",  "color": "Hồng",  "color_code": "#F8D7DA", "stock": 40, "price_adjustment": 0,      "sku": "FC-006-S-PINK" },
+      { "size": "M",  "color": "Hồng",  "color_code": "#F8D7DA", "stock": 35, "price_adjustment": 0,      "sku": "FC-006-M-PINK" },
+      { "size": "L",  "color": "Hồng",  "color_code": "#F8D7DA", "stock": 20, "price_adjustment": 0,      "sku": "FC-006-L-PINK" },
+      { "size": "XS", "color": "Đen",   "color_code": "#1A1A1A", "stock": 25, "price_adjustment": 0,      "sku": "FC-006-XS-BLACK" },
+      { "size": "S",  "color": "Đen",   "color_code": "#1A1A1A", "stock": 35, "price_adjustment": 0,      "sku": "FC-006-S-BLACK" },
+      { "size": "M",  "color": "Đen",   "color_code": "#1A1A1A", "stock": 30, "price_adjustment": 0,      "sku": "FC-006-M-BLACK" },
+      { "size": "XS", "color": "Trắng", "color_code": "#FFFFFF", "stock": 20, "price_adjustment": 0,      "sku": "FC-006-XS-WHITE" },
+      { "size": "S",  "color": "Trắng", "color_code": "#FFFFFF", "stock": 30, "price_adjustment": 0,      "sku": "FC-006-S-WHITE" },
+      { "size": "M",  "color": "Trắng", "color_code": "#FFFFFF", "stock": 25, "price_adjustment": 0,      "sku": "FC-006-M-WHITE" }
+    ]
+  },
+  {
+    "id": 7,
+    "shop_id": 1,
+    "category_id": 9,
+    "name": "Đầm Maxi Nhẹ Nhàng Chất Linen",
+    "slug": "dam-maxi-nhe-nhang-chat-linen",
+    "description": "Đầm maxi dài chất liệu linen cao cấp, nhẹ mát, thoáng khí. Thiết kế phom A tôn dáng, cổ V nhẹ, tay bồng. Màu sắc thanh lịch phù hợp đi dạo, cafe, hay các dịp ngoài trời.",
+    "base_price": 589000,
+    "discount_price": 499000,
+    "thumbnail_url": "https://placehold.co/600x900/f5f0e8/5c4d3c?text=Maxi+Dress",
+    "status": "active",
+    "total_sold": 143,
+    "average_rating": 4.9,
+    "review_count": 71,
+    "images": [
+      { "image_url": "https://placehold.co/600x900/f5f0e8/5c4d3c?text=Maxi+Dress+1", "display_order": 0, "alt_text": "Đầm maxi linen màu kem" },
+      { "image_url": "https://placehold.co/600x900/c47d4a/ffffff?text=Maxi+Dress+2", "display_order": 1, "alt_text": "Đầm maxi linen màu caramel" }
+    ],
+    "variants": [
+      { "size": "XS", "color": "Kem",      "color_code": "#F5F0E8", "stock": 15, "price_adjustment": 0, "sku": "FC-007-XS-CREAM" },
+      { "size": "S",  "color": "Kem",      "color_code": "#F5F0E8", "stock": 20, "price_adjustment": 0, "sku": "FC-007-S-CREAM" },
+      { "size": "M",  "color": "Kem",      "color_code": "#F5F0E8", "stock": 25, "price_adjustment": 0, "sku": "FC-007-M-CREAM" },
+      { "size": "L",  "color": "Kem",      "color_code": "#F5F0E8", "stock": 15, "price_adjustment": 0, "sku": "FC-007-L-CREAM" },
+      { "size": "S",  "color": "Caramel",  "color_code": "#C47D4A", "stock": 15, "price_adjustment": 0, "sku": "FC-007-S-CARAMEL" },
+      { "size": "M",  "color": "Caramel",  "color_code": "#C47D4A", "stock": 20, "price_adjustment": 0, "sku": "FC-007-M-CARAMEL" },
+      { "size": "L",  "color": "Caramel",  "color_code": "#C47D4A", "stock": 12, "price_adjustment": 0, "sku": "FC-007-L-CARAMEL" }
+    ]
+  },
+  {
+    "id": 8,
+    "shop_id": 1,
+    "category_id": 10,
+    "name": "Quần Jeans Nữ Ống Rộng High Waist",
+    "slug": "quan-jeans-nu-ong-rong-high-waist",
+    "description": "Quần jeans nữ ống rộng cạp cao phong cách retro. Chất denim dày dặn, màu wash vintage đặc trưng. Lưng cao tôn eo, ống rộng giúp chân trông dài hơn. Phối được nhiều kiểu áo khác nhau.",
+    "base_price": 499000,
+    "discount_price": null,
+    "thumbnail_url": "https://placehold.co/600x800/7bafd4/ffffff?text=Wide+Leg+Jeans",
+    "status": "active",
+    "total_sold": 198,
+    "average_rating": 4.6,
+    "review_count": 89,
+    "images": [
+      { "image_url": "https://placehold.co/600x800/7bafd4/ffffff?text=Wide+Leg+1", "display_order": 0, "alt_text": "Quần jeans ống rộng xanh nhạt" },
+      { "image_url": "https://placehold.co/600x800/2d3436/ffffff?text=Wide+Leg+2", "display_order": 1, "alt_text": "Quần jeans ống rộng đen" }
+    ],
+    "variants": [
+      { "size": "25", "color": "Xanh nhạt", "color_code": "#7BAFD4", "stock": 15, "price_adjustment": 0, "sku": "FC-008-25-LBLUE" },
+      { "size": "26", "color": "Xanh nhạt", "color_code": "#7BAFD4", "stock": 20, "price_adjustment": 0, "sku": "FC-008-26-LBLUE" },
+      { "size": "27", "color": "Xanh nhạt", "color_code": "#7BAFD4", "stock": 25, "price_adjustment": 0, "sku": "FC-008-27-LBLUE" },
+      { "size": "28", "color": "Xanh nhạt", "color_code": "#7BAFD4", "stock": 20, "price_adjustment": 0, "sku": "FC-008-28-LBLUE" },
+      { "size": "26", "color": "Đen",        "color_code": "#1A1A1A", "stock": 15, "price_adjustment": 0, "sku": "FC-008-26-BLACK" },
+      { "size": "27", "color": "Đen",        "color_code": "#1A1A1A", "stock": 20, "price_adjustment": 0, "sku": "FC-008-27-BLACK" },
+      { "size": "28", "color": "Đen",        "color_code": "#1A1A1A", "stock": 15, "price_adjustment": 0, "sku": "FC-008-28-BLACK" }
+    ]
+  },
+  {
+    "id": 9,
+    "shop_id": 1,
+    "category_id": 11,
+    "name": "Chân Váy Midi Xếp Ly",
+    "slug": "chan-vay-midi-xep-ly",
+    "description": "Chân váy midi xếp ly dài qua gối, phong cách thanh lịch nhẹ nhàng. Chất liệu vải polyester mềm rủ đẹp, không nhăn. Cạp thun co giãn thoải mái. Phù hợp đi làm, đi học, hay dự tiệc.",
+    "base_price": 349000,
+    "discount_price": 299000,
+    "thumbnail_url": "https://placehold.co/600x900/e2b5c8/333333?text=Midi+Skirt",
+    "status": "active",
+    "total_sold": 112,
+    "average_rating": 4.5,
+    "review_count": 48,
+    "images": [
+      { "image_url": "https://placehold.co/600x900/e2b5c8/333333?text=Midi+Skirt+1", "display_order": 0, "alt_text": "Chân váy midi xếp ly màu hồng dusty" },
+      { "image_url": "https://placehold.co/600x900/3d5a80/ffffff?text=Midi+Skirt+2", "display_order": 1, "alt_text": "Chân váy midi xếp ly màu xanh tím" }
+    ],
+    "variants": [
+      { "size": "XS", "color": "Hồng dusty", "color_code": "#E2B5C8", "stock": 15, "price_adjustment": 0, "sku": "FC-009-XS-DPINK" },
+      { "size": "S",  "color": "Hồng dusty", "color_code": "#E2B5C8", "stock": 20, "price_adjustment": 0, "sku": "FC-009-S-DPINK" },
+      { "size": "M",  "color": "Hồng dusty", "color_code": "#E2B5C8", "stock": 25, "price_adjustment": 0, "sku": "FC-009-M-DPINK" },
+      { "size": "L",  "color": "Hồng dusty", "color_code": "#E2B5C8", "stock": 15, "price_adjustment": 0, "sku": "FC-009-L-DPINK" },
+      { "size": "S",  "color": "Xanh tím",   "color_code": "#3D5A80", "stock": 15, "price_adjustment": 0, "sku": "FC-009-S-PURPLE" },
+      { "size": "M",  "color": "Xanh tím",   "color_code": "#3D5A80", "stock": 20, "price_adjustment": 0, "sku": "FC-009-M-PURPLE" },
+      { "size": "L",  "color": "Xanh tím",   "color_code": "#3D5A80", "stock": 12, "price_adjustment": 0, "sku": "FC-009-L-PURPLE" }
+    ]
+  },
+  {
+    "id": 10,
+    "shop_id": 1,
+    "category_id": 12,
+    "name": "Mũ Bucket Hat Canvas",
+    "slug": "mu-bucket-hat-canvas",
+    "description": "Mũ bucket hat chất liệu canvas dày dặn, chống nắng hiệu quả. Thiết kế vành rộng 360 độ, có thể gập cất gọn. Phù hợp đi biển, đi dạo, hay hoạt động ngoài trời.",
+    "base_price": 149000,
+    "discount_price": null,
+    "thumbnail_url": "https://placehold.co/400x300/D4B896/333333?text=Bucket+Hat",
+    "status": "active",
+    "total_sold": 445,
+    "average_rating": 4.4,
+    "review_count": 167,
+    "images": [
+      { "image_url": "https://placehold.co/400x300/D4B896/333333?text=Bucket+Hat+Be", "display_order": 0, "alt_text": "Mũ bucket hat màu be" },
+      { "image_url": "https://placehold.co/400x300/1A1A1A/ffffff?text=Bucket+Hat+Black", "display_order": 1, "alt_text": "Mũ bucket hat màu đen" }
+    ],
+    "variants": [
+      { "size": "Free", "color": "Be",       "color_code": "#D4B896", "stock": 50, "price_adjustment": 0, "sku": "FC-010-FREE-BEIGE" },
+      { "size": "Free", "color": "Đen",      "color_code": "#1A1A1A", "stock": 60, "price_adjustment": 0, "sku": "FC-010-FREE-BLACK" },
+      { "size": "Free", "color": "Trắng",    "color_code": "#FFFFFF", "stock": 45, "price_adjustment": 0, "sku": "FC-010-FREE-WHITE" },
+      { "size": "Free", "color": "Xanh rêu", "color_code": "#4A7C59", "stock": 35, "price_adjustment": 0, "sku": "FC-010-FREE-OLIVE" }
+    ]
+  },
+  {
+    "id": 11,
+    "shop_id": 1,
+    "category_id": 4,
+    "name": "Áo Thun Polo Pique Classic",
+    "slug": "ao-thun-polo-pique-classic",
+    "description": "Áo polo vải pique cao cấp, form regular fit lịch sự. Cổ dệt chắc chắn, hàng cúc 3 nút, gấu áo cong nhẹ. Phù hợp đi làm casual, đi chơi, hay các dịp bán trang trọng.",
+    "base_price": 329000,
+    "discount_price": null,
+    "thumbnail_url": "https://placehold.co/600x800/1B2A4A/ffffff?text=Polo+Shirt",
+    "status": "active",
+    "total_sold": 203,
+    "average_rating": 4.5,
+    "review_count": 78,
+    "images": [
+      { "image_url": "https://placehold.co/600x800/1B2A4A/ffffff?text=Polo+Navy", "display_order": 0, "alt_text": "Áo polo navy" },
+      { "image_url": "https://placehold.co/600x800/FFFFFF/333333?text=Polo+White", "display_order": 1, "alt_text": "Áo polo trắng" }
+    ],
+    "variants": [
+      { "size": "S",  "color": "Navy",  "color_code": "#1B2A4A", "stock": 25, "price_adjustment": 0, "sku": "FC-011-S-NAVY" },
+      { "size": "M",  "color": "Navy",  "color_code": "#1B2A4A", "stock": 35, "price_adjustment": 0, "sku": "FC-011-M-NAVY" },
+      { "size": "L",  "color": "Navy",  "color_code": "#1B2A4A", "stock": 30, "price_adjustment": 0, "sku": "FC-011-L-NAVY" },
+      { "size": "XL", "color": "Navy",  "color_code": "#1B2A4A", "stock": 20, "price_adjustment": 0, "sku": "FC-011-XL-NAVY" },
+      { "size": "S",  "color": "Trắng", "color_code": "#FFFFFF", "stock": 20, "price_adjustment": 0, "sku": "FC-011-S-WHITE" },
+      { "size": "M",  "color": "Trắng", "color_code": "#FFFFFF", "stock": 30, "price_adjustment": 0, "sku": "FC-011-M-WHITE" },
+      { "size": "L",  "color": "Trắng", "color_code": "#FFFFFF", "stock": 25, "price_adjustment": 0, "sku": "FC-011-L-WHITE" }
+    ]
+  },
+  {
+    "id": 12,
+    "shop_id": 1,
+    "category_id": 13,
+    "name": "Túi Tote Vải Canvas In Chữ",
+    "slug": "tui-tote-vai-canvas-in-chu",
+    "description": "Túi tote canvas dày, sức chứa lớn phù hợp đi học, đi chợ, đi picnic. In chữ và họa tiết bằng kỹ thuật in lụa bền màu. Có túi nhỏ bên trong. Quai túi chắc chắn chịu được tải trọng lớn.",
+    "base_price": 129000,
+    "discount_price": null,
+    "thumbnail_url": "https://placehold.co/500x500/F5F0E8/333333?text=Tote+Bag",
+    "status": "active",
+    "total_sold": 567,
+    "average_rating": 4.6,
+    "review_count": 213,
+    "images": [
+      { "image_url": "https://placehold.co/500x500/F5F0E8/333333?text=Tote+Bag+Natural", "display_order": 0, "alt_text": "Túi tote canvas màu kem" },
+      { "image_url": "https://placehold.co/500x500/1A1A1A/ffffff?text=Tote+Bag+Black", "display_order": 1, "alt_text": "Túi tote canvas màu đen" }
+    ],
+    "variants": [
+      { "size": "One size", "color": "Kem",    "color_code": "#F5F0E8", "stock": 80, "price_adjustment": 0, "sku": "FC-012-OS-CREAM" },
+      { "size": "One size", "color": "Đen",    "color_code": "#1A1A1A", "stock": 70, "price_adjustment": 0, "sku": "FC-012-OS-BLACK" },
+      { "size": "One size", "color": "Trắng",  "color_code": "#FFFFFF", "stock": 60, "price_adjustment": 0, "sku": "FC-012-OS-WHITE" }
+    ]
+  },
+  {
+    "id": 13,
+    "shop_id": 1,
+    "category_id": 8,
+    "name": "Áo Crop Hoodie Nỉ Dày",
+    "slug": "ao-crop-hoodie-ni-day",
+    "description": "Áo hoodie dạng crop chất liệu nỉ bông dày dặn, ấm áp. Có mũ điều chỉnh được, túi kangaroo. Form ôm vừa, cạp tay và gấu bo chun. Phù hợp mặc mùa mát, cafe, đi chơi.",
+    "base_price": 449000,
+    "discount_price": 389000,
+    "thumbnail_url": "https://placehold.co/600x800/b5c4d4/333333?text=Crop+Hoodie",
+    "status": "active",
+    "total_sold": 134,
+    "average_rating": 4.7,
+    "review_count": 56,
+    "images": [
+      { "image_url": "https://placehold.co/600x800/b5c4d4/333333?text=Crop+Hoodie+Blue", "display_order": 0, "alt_text": "Áo crop hoodie xanh nhạt" },
+      { "image_url": "https://placehold.co/600x800/858585/ffffff?text=Crop+Hoodie+Grey", "display_order": 1, "alt_text": "Áo crop hoodie xám" }
+    ],
+    "variants": [
+      { "size": "XS", "color": "Xanh baby", "color_code": "#B5C4D4", "stock": 20, "price_adjustment": 0, "sku": "FC-013-XS-BABYB" },
+      { "size": "S",  "color": "Xanh baby", "color_code": "#B5C4D4", "stock": 25, "price_adjustment": 0, "sku": "FC-013-S-BABYB" },
+      { "size": "M",  "color": "Xanh baby", "color_code": "#B5C4D4", "stock": 30, "price_adjustment": 0, "sku": "FC-013-M-BABYB" },
+      { "size": "L",  "color": "Xanh baby", "color_code": "#B5C4D4", "stock": 15, "price_adjustment": 0, "sku": "FC-013-L-BABYB" },
+      { "size": "S",  "color": "Xám",       "color_code": "#858585", "stock": 20, "price_adjustment": 0, "sku": "FC-013-S-GREY" },
+      { "size": "M",  "color": "Xám",       "color_code": "#858585", "stock": 25, "price_adjustment": 0, "sku": "FC-013-M-GREY" },
+      { "size": "L",  "color": "Xám",       "color_code": "#858585", "stock": 15, "price_adjustment": 0, "sku": "FC-013-L-GREY" }
+    ]
+  },
+  {
+    "id": 14,
+    "shop_id": 1,
+    "category_id": 6,
+    "name": "Quần Jeans Baggy Wash Vintage",
+    "slug": "quan-jeans-baggy-wash-vintage",
+    "description": "Quần jeans baggy phong cách vintage với màu wash độc đáo, có rách gối tự nhiên. Form ống rộng thoải mái, cạp thường. Phối được với nhiều kiểu áo từ basic đến streetwear.",
+    "base_price": 529000,
+    "discount_price": null,
+    "thumbnail_url": "https://placehold.co/600x800/a8c5da/333333?text=Baggy+Jeans",
+    "status": "active",
+    "total_sold": 87,
+    "average_rating": 4.4,
+    "review_count": 35,
+    "images": [
+      { "image_url": "https://placehold.co/600x800/a8c5da/333333?text=Baggy+Jeans+1", "display_order": 0, "alt_text": "Quần jeans baggy wash vintage xanh" }
+    ],
+    "variants": [
+      { "size": "28", "color": "Xanh vintage", "color_code": "#A8C5DA", "stock": 15, "price_adjustment": 0, "sku": "FC-014-28-VBLUE" },
+      { "size": "29", "color": "Xanh vintage", "color_code": "#A8C5DA", "stock": 20, "price_adjustment": 0, "sku": "FC-014-29-VBLUE" },
+      { "size": "30", "color": "Xanh vintage", "color_code": "#A8C5DA", "stock": 25, "price_adjustment": 0, "sku": "FC-014-30-VBLUE" },
+      { "size": "31", "color": "Xanh vintage", "color_code": "#A8C5DA", "stock": 15, "price_adjustment": 0, "sku": "FC-014-31-VBLUE" },
+      { "size": "32", "color": "Xanh vintage", "color_code": "#A8C5DA", "stock": 10, "price_adjustment": 0, "sku": "FC-014-32-VBLUE" }
+    ]
+  },
+  {
+    "id": 15,
+    "shop_id": 1,
+    "category_id": 9,
+    "name": "Đầm Mini Babydoll Hoa Nhỏ",
+    "slug": "dam-mini-babydoll-hoa-nho",
+    "description": "Đầm mini babydoll họa tiết hoa nhỏ xinh xắn. Chất liệu voan mỏng nhẹ, layer đôi tạo độ phồng, điệu đà. Phù hợp đi biển, cafe, picnic, hay các buổi hẹn hò nhẹ nhàng.",
+    "base_price": 389000,
+    "discount_price": 329000,
+    "thumbnail_url": "https://placehold.co/600x900/fce4ec/5c3d4a?text=Babydoll+Dress",
+    "status": "active",
+    "total_sold": 178,
+    "average_rating": 4.8,
+    "review_count": 82,
+    "images": [
+      { "image_url": "https://placehold.co/600x900/fce4ec/5c3d4a?text=Babydoll+1", "display_order": 0, "alt_text": "Đầm babydoll hoa nhỏ hồng" },
+      { "image_url": "https://placehold.co/600x900/e8f5e9/2e5233?text=Babydoll+2", "display_order": 1, "alt_text": "Đầm babydoll hoa nhỏ xanh lá" }
+    ],
+    "variants": [
+      { "size": "XS", "color": "Hồng hoa",   "color_code": "#FCE4EC", "stock": 15, "price_adjustment": 0, "sku": "FC-015-XS-PFLO" },
+      { "size": "S",  "color": "Hồng hoa",   "color_code": "#FCE4EC", "stock": 20, "price_adjustment": 0, "sku": "FC-015-S-PFLO" },
+      { "size": "M",  "color": "Hồng hoa",   "color_code": "#FCE4EC", "stock": 25, "price_adjustment": 0, "sku": "FC-015-M-PFLO" },
+      { "size": "L",  "color": "Hồng hoa",   "color_code": "#FCE4EC", "stock": 15, "price_adjustment": 0, "sku": "FC-015-L-PFLO" },
+      { "size": "S",  "color": "Xanh lá hoa","color_code": "#E8F5E9", "stock": 15, "price_adjustment": 0, "sku": "FC-015-S-GFLO" },
+      { "size": "M",  "color": "Xanh lá hoa","color_code": "#E8F5E9", "stock": 20, "price_adjustment": 0, "sku": "FC-015-M-GFLO" }
+    ]
+  }
+]

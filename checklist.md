@@ -51,3 +51,4 @@ Phase 0 (Done)     Phase 1           Phase 2          Phase 3          Phase 4  
 | Frontend module docs | `frontend/FE/*.md` |
 | ML module docs | `ml-services/ML/*.md` |
 | Database docs | `backend/database/readme.md` |
+| Quy ước team | `docs/team-conventions.md` |

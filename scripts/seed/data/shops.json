@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "owner_id": 3,
+    "name": "Urban Threads HCM",
+    "slug": "urban-threads-hcm",
+    "description": "Thương hiệu thời trang trẻ tập trung vào phong cách streetwear và casual hiện đại. Sản phẩm được thiết kế bởi các designer trẻ Việt Nam, chất liệu cao cấp, giá cả hợp lý.",
+    "logo_url": "https://placehold.co/200x200/1a1a2e/ffffff?text=UT",
+    "banner_url": "https://placehold.co/1200x400/1a1a2e/ffffff?text=Urban+Threads+HCM",
+    "phone": "0923456789",
+    "address": "123 Nguyễn Trãi, Quận 1, TP. Hồ Chí Minh",
+    "status": "active",
+    "rating": 4.7,
+    "total_products": 0
+  }
+]

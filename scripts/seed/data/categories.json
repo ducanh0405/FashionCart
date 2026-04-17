@@ -1,0 +1,119 @@
+[
+  {
+    "id": 1,
+    "parent_id": null,
+    "name": "Thời trang nam",
+    "slug": "thoi-trang-nam",
+    "icon_url": null,
+    "display_order": 1,
+    "is_active": true
+  },
+  {
+    "id": 2,
+    "parent_id": null,
+    "name": "Thời trang nữ",
+    "slug": "thoi-trang-nu",
+    "icon_url": null,
+    "display_order": 2,
+    "is_active": true
+  },
+  {
+    "id": 3,
+    "parent_id": null,
+    "name": "Phụ kiện",
+    "slug": "phu-kien",
+    "icon_url": null,
+    "display_order": 3,
+    "is_active": true
+  },
+  {
+    "id": 4,
+    "parent_id": 1,
+    "name": "Áo thun nam",
+    "slug": "ao-thun-nam",
+    "icon_url": null,
+    "display_order": 1,
+    "is_active": true
+  },
+  {
+    "id": 5,
+    "parent_id": 1,
+    "name": "Áo sơ mi",
+    "slug": "ao-so-mi",
+    "icon_url": null,
+    "display_order": 2,
+    "is_active": true
+  },
+  {
+    "id": 6,
+    "parent_id": 1,
+    "name": "Quần jeans nam",
+    "slug": "quan-jeans-nam",
+    "icon_url": null,
+    "display_order": 3,
+    "is_active": true
+  },
+  {
+    "id": 7,
+    "parent_id": 1,
+    "name": "Quần shorts",
+    "slug": "quan-shorts",
+    "icon_url": null,
+    "display_order": 4,
+    "is_active": true
+  },
+  {
+    "id": 8,
+    "parent_id": 2,
+    "name": "Áo croptop",
+    "slug": "ao-croptop",
+    "icon_url": null,
+    "display_order": 1,
+    "is_active": true
+  },
+  {
+    "id": 9,
+    "parent_id": 2,
+    "name": "Đầm / Váy",
+    "slug": "dam-vay",
+    "icon_url": null,
+    "display_order": 2,
+    "is_active": true
+  },
+  {
+    "id": 10,
+    "parent_id": 2,
+    "name": "Quần jeans nữ",
+    "slug": "quan-jeans-nu",
+    "icon_url": null,
+    "display_order": 3,
+    "is_active": true
+  },
+  {
+    "id": 11,
+    "parent_id": 2,
+    "name": "Chân váy",
+    "slug": "chan-vay",
+    "icon_url": null,
+    "display_order": 4,
+    "is_active": true
+  },
+  {
+    "id": 12,
+    "parent_id": 3,
+    "name": "Mũ / Nón",
+    "slug": "mu-non",
+    "icon_url": null,
+    "display_order": 1,
+    "is_active": true
+  },
+  {
+    "id": 13,
+    "parent_id": 3,
+    "name": "Túi xách",
+    "slug": "tui-xach",
+    "icon_url": null,
+    "display_order": 2,
+    "is_active": true
+  }
+]

@@ -1,0 +1,119 @@
+[
+  {
+    "id": 1,
+    "order_code": "FC-20260408-001",
+    "user_id": 1,
+    "status": "delivered",
+    "payment_method": "cod",
+    "payment_status": "paid",
+    "subtotal": 508000,
+    "shipping_fee": 0,
+    "discount": 0,
+    "total": 508000,
+    "shipping_name": "Nguyễn Văn An",
+    "shipping_phone": "0901234567",
+    "shipping_address": "123 Nguyễn Huệ, Phường Bến Nghé, Quận 1, TP. Hồ Chí Minh",
+    "note": null,
+    "items": [
+      {
+        "product_id": 1,
+        "product_name_snapshot": "Áo Thun Basic Cotton Oversize",
+        "product_image_snapshot": "https://placehold.co/600x800/f0f0f0/333333?text=Ao+Thun+Basic",
+        "variant_info_snapshot": "Size M, Màu Trắng",
+        "quantity": 2,
+        "unit_price": 159000,
+        "subtotal": 318000
+      },
+      {
+        "product_id": 4,
+        "product_name_snapshot": "Quần Jeans Slim Fit Co Giãn",
+        "product_image_snapshot": "https://placehold.co/600x800/6c9bc0/ffffff?text=Slim+Jeans",
+        "variant_info_snapshot": "Size 30, Màu Xanh nhạt",
+        "quantity": 1,
+        "unit_price": 459000,
+        "subtotal": 459000
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "order_code": "FC-20260410-002",
+    "user_id": 1,
+    "status": "shipping",
+    "payment_method": "cod",
+    "payment_status": "unpaid",
+    "subtotal": 459000,
+    "shipping_fee": 30000,
+    "discount": 0,
+    "total": 489000,
+    "shipping_name": "Nguyễn Văn An",
+    "shipping_phone": "0901234567",
+    "shipping_address": "456 Lê Văn Sỹ, Phường 14, Quận 3, TP. Hồ Chí Minh",
+    "note": "Giao giờ hành chính, tránh buổi trưa.",
+    "items": [
+      {
+        "product_id": 3,
+        "product_name_snapshot": "Áo Sơ Mi Oxford Button-Down",
+        "product_image_snapshot": "https://placehold.co/600x800/e8f4f8/333333?text=Oxford+Shirt",
+        "variant_info_snapshot": "Size L, Màu Trắng",
+        "quantity": 1,
+        "unit_price": 349000,
+        "subtotal": 349000
+      },
+      {
+        "product_id": 10,
+        "product_name_snapshot": "Mũ Bucket Hat Canvas",
+        "product_image_snapshot": "https://placehold.co/400x300/D4B896/333333?text=Bucket+Hat",
+        "variant_info_snapshot": "Size Free, Màu Đen",
+        "quantity": 1,
+        "unit_price": 149000,
+        "subtotal": 149000
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "order_code": "FC-20260412-003",
+    "user_id": 2,
+    "status": "confirmed",
+    "payment_method": "cod",
+    "payment_status": "unpaid",
+    "subtotal": 828000,
+    "shipping_fee": 0,
+    "discount": 0,
+    "total": 828000,
+    "shipping_name": "Trần Thị Bình",
+    "shipping_phone": "0912345678",
+    "shipping_address": "78 Trần Phú, Phường 4, Quận 5, TP. Hồ Chí Minh",
+    "note": null,
+    "items": [
+      {
+        "product_id": 7,
+        "product_name_snapshot": "Đầm Maxi Nhẹ Nhàng Chất Linen",
+        "product_image_snapshot": "https://placehold.co/600x900/f5f0e8/5c4d3c?text=Maxi+Dress",
+        "variant_info_snapshot": "Size M, Màu Kem",
+        "quantity": 1,
+        "unit_price": 499000,
+        "subtotal": 499000
+      },
+      {
+        "product_id": 9,
+        "product_name_snapshot": "Chân Váy Midi Xếp Ly",
+        "product_image_snapshot": "https://placehold.co/600x900/e2b5c8/333333?text=Midi+Skirt",
+        "variant_info_snapshot": "Size S, Màu Hồng dusty",
+        "quantity": 1,
+        "unit_price": 299000,
+        "subtotal": 299000
+      },
+      {
+        "product_id": 12,
+        "product_name_snapshot": "Túi Tote Vải Canvas In Chữ",
+        "product_image_snapshot": "https://placehold.co/500x500/F5F0E8/333333?text=Tote+Bag",
+        "variant_info_snapshot": "Size One size, Màu Kem",
+        "quantity": 1,
+        "unit_price": 129000,
+        "subtotal": 129000
+      }
+    ]
+  }
+]

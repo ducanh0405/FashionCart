@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "email": "buyer@test.com",
+    "password_raw": "Test@1234",
+    "full_name": "Nguyễn Văn An",
+    "phone": "0901234567",
+    "gender": "male",
+    "date_of_birth": "1999-03-15",
+    "avatar_url": null,
+    "role": "buyer",
+    "is_active": true
+  },
+  {
+    "id": 2,
+    "email": "buyer2@test.com",
+    "password_raw": "Test@1234",
+    "full_name": "Trần Thị Bình",
+    "phone": "0912345678",
+    "gender": "female",
+    "date_of_birth": "2001-07-20",
+    "avatar_url": null,
+    "role": "buyer",
+    "is_active": true
+  },
+  {
+    "id": 3,
+    "email": "shop@test.com",
+    "password_raw": "Test@1234",
+    "full_name": "Lê Minh Cường",
+    "phone": "0923456789",
+    "gender": "male",
+    "date_of_birth": "1995-11-05",
+    "avatar_url": null,
+    "role": "shop",
+    "is_active": true
+  },
+  {
+    "id": 4,
+    "email": "admin@test.com",
+    "password_raw": "Admin@1234",
+    "full_name": "FashionCart Admin",
+    "phone": "0934567890",
+    "gender": "other",
+    "date_of_birth": null,
+    "avatar_url": null,
+    "role": "admin",
+    "is_active": true
+  }
+]
